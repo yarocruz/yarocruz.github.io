@@ -14,18 +14,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
+email: your-email@domain.com
+description: I’m a Design student, part-time photographer, and basic front-end web coder. Central FL based. This is a custom blog I'm working on with Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
+twitter_username: JayCruz
+github_username:  yarocruz
 
 # Build settings
 markdown: kramdown
-theme: minima-custom
+theme: minima
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
-include: ["_pages"]
-permalink: /:title/
