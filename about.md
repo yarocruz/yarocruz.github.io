@@ -9,7 +9,7 @@ I’m a Web Designer, technically a Graphic Designer who specializes in Interact
 
 I’m not quite seasoned in the industry and ~~I’m about to graduate~~ I recently graduated from school, but I'm constantly learning new things. Frameworks like Bootstrap, CMS's like Wordpress, SASS, etc. Anything that will help me design better. I like tooling.
 
-### Other Things About me that might be Interesting
+### Other things that might be interesting
 
 - I'm a decent guitar player. I started playing when I was 16 and played in a couple of garage bands. Never "made it' in the business, but I still play my acoustic. My girlfriend says she loves to hear me play it.
 - I was a computer tech for a while. Back in the Windows XP days. I installed drives and upgraded memories.
