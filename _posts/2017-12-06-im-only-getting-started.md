@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I'm Only Getting Started"
-date:   2017-12-04 18:16:57 -0400
+date:   2017-12-6 
 categories: jekyll update
 permalink: /im-only-getting-started/
 ---
