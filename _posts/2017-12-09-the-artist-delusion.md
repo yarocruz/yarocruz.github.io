@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Artist Delusion"
-date:   2017-12-6
+date:   2017-12-9
 categories: jekyll update
 permalink: /the-artist-delusion/
 ---
