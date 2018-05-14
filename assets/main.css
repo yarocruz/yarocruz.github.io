@@ -32,6 +32,8 @@ ul, ol, dl, figure,
 
 .post-link, .post-title {
   font-weight: 900; }
+p {
+  margin: 5px;
 
 /**
  * Images
