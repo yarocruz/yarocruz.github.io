@@ -74,10 +74,9 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #4a4a4a;
   text-decoration: none; }
-  a:visited {
-    color: #242424; }
+  
   a:hover {
-    color: #111;
+    
     text-decoration: underline; }
   .social-media-list a:hover {
     text-decoration: none; }
