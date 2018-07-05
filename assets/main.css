@@ -333,7 +333,9 @@ footer p {
 /**
  * Posts
  */
-.post-content a, .PageNavigation a {
+.post-content a, 
+.next,
+.prev {
   color: #eca50a; }
 
 .post-header {
