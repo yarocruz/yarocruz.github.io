@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
+email: yarocruz@gmail.com
 description: I’m a Design student, part-time photographer, and basic front-end web coder. Central FL based. This is a custom blog I'm working on with Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -30,5 +30,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
- paginate: 5
- paginate_path: "/blog/page:num/" 
+  
