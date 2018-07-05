@@ -334,8 +334,8 @@ footer p {
  * Posts
  */
 .post-content a, 
-.next,
-.prev {
+a.next,
+a.prev {
   color: #eca50a; }
 
 .post-header {
