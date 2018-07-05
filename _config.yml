@@ -33,23 +33,12 @@ exclude:
  # Pagination Settings
 pagination:
   enabled: true
-  per_page: 3
+  per_page: 2
   permalink: '/page/:num/'
   title: ':title - page :num of :max'
   limit: 0
   sort_field: 'date'
   sort_reverse: true  
 
-<<<<<<< HEAD
- # Pagination Settings
-pagination:
-  enabled: true
-  per_page: 3
-  permalink: '/page/:num/'
-  title: ':title - page :num of :max'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-=======
+
   
->>>>>>> 1c6319aaafa7386c3a8ff84f1d26d8c760dd9afc
