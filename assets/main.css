@@ -99,11 +99,8 @@ a {
         width: 50%;
         float: left;
         margin: 1em 0;
-      }
-      
-      .PageNavigation .next {
-        text-align: right;
-      }     
+      }   
+           
 
 /**
  * Blockquotes
