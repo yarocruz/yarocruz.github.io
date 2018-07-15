@@ -33,6 +33,10 @@ ul, ol, dl, figure,
 .post-link, .post-title {
   font-weight: 900; }
 
+ .date-inside-post {
+   font-weight: 100;
+ } 
+
 p {
   margin-bottom: 10px;
 }
