@@ -359,7 +359,8 @@ footer p {
 .post-content a, 
 a.next,
 a.prev {
-  color: #eca50a; }
+  color: rgb(18, 104, 175);
+  font-weight: 800; }
 
 .post-header {
   margin-bottom: 30px; }
