@@ -16,6 +16,6 @@ This is why I've been on a self-learning journey. I'm doing [Treehouse](https://
 
 I've definitely gotten better at the basics of front-end code. I think I code up something almost everyday. But I want to be more deliberate with my learning and practice. Giving yourself the goal of _getting better at coding_ is not super helpful. I want to start setting up [**S.M.A.R.T**](https://en.wikipedia.org/wiki/SMART_criteria) goals. This is why I'm giving the [100 Days of Coding](https://www.100daysofcode.com/) a shot again.
 
-Starting today I will code for 1 hour everyday until I reach 100 days. I will reach this goal by Dec 13, 2018 if I do it everyday. I will definitely Tweet my progress for accountability purposes, but I'm also thinking that I should blog about here.
+Starting today I will code for 1 hour everyday until I reach 100 days. I will reach this goal by Dec 13, 2018 if I do it everyday. I will definitely Tweet my progress for accountability purposes, but I'm also thinking that I should blog about it here.
 
 We will see.
