@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Smart Goals and 100 Days of Coding"
-date: 2018-08-05
+date: 2018-09-05
 categories: web-development coding
 permalink: /smart-goals-and-100-days-of-coding/
 ---
