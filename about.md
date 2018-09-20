@@ -4,16 +4,15 @@ title: About
 permalink: "/about/"
 ---
 
+I am many things, and have been many things, but one of the main identities I've gone by is Designer. I've called myself a Web Designer, Graphic Designer, Visual Designer, and Interactive Designer. Never Ux Designer because that seems to high level to me, and Ui Designer has always seem implicit if you design anything digital and interactive. I also like to call myself a Front-End Web Developer. These are the roles I have given myself. This is a career I'm pursuing. This is what I went to school for and got a degree in. I'm a Designer and Front-End Developer.
 
-I’m a Web Designer, technically a Graphic Designer who specializes in Interactive Design. That’s just a fancy way of saying that I know how to use software tools such as Photoshop, Illustrator, InDesign, and can write entry level front-end code with HTML, CSS, and a bit of JavaScript/jQuery. To put it simply, I’m a designer who enjoys coding.
+More importantly, I'm trying to become a better Front-End Developer. I've been focused on learning Web Development and really learning JavaScript. It be cool one day to get paid for doing this stuff, but I'll probably keep doing this because it's fun. As cliched as it is, I just love making things.
 
-I’m not quite seasoned in the industry and ~~I’m about to graduate~~ I recently graduated from school, but I'm constantly learning new things. Frameworks like Bootstrap, CMS's like Wordpress, SASS, etc. Anything that will help me design better. I like tooling.
-
-### Other things that might be interesting
+### Other things that might be interesting about me
 
 - I'm a decent guitar player. I started playing when I was 16 and played in a couple of garage bands. Never "made it' in the business, but I still play my acoustic. My girlfriend says she loves to hear me play it.
-- I was a computer tech for a while. Back in the Windows XP days. I installed drives and upgraded memories.
+- I was a computer technician for a while. Back in the Windows XP days. I installed drives and upgraded memories.
 - I'm a Photographer at a water park in Central Florida.
-- I like to read a lot.
+- I love books, music, and movies.
 
 That's it. If you want to checkout my design work go [here.](http://yaroskycruz.com/)
