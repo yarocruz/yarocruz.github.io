@@ -6,8 +6,6 @@ categories: web-development coding
 permalink: /math-is-hard/
 ---
 
-Logic and Math, Or Why I think I suck at Programming sometimes- Working Title
-
 Math is hard. I've never hated math back in school, but I also never did it, like, for fun. I did decent in college with the required math classes. As long as I payed attention, took lots of notes, and never missed a class, I was ok.
 
 Coding is hard too. Front End Development is using code to put things on the screen, and make the things do things on the screen. Putting the things on the screen is the easy part. Making the things do things is when things get complex.
