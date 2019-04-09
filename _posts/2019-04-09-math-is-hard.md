@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Goodbye Web Design, Hello Frontend Design'
+title: 'Math is Hard'
 date: 2019-04-09
 categories: web-development coding
 permalink: /math-is-hard/
@@ -20,7 +20,7 @@ Take this [App Ideas Collection repo]('https://github.com/florinpop17/app-ideas'
 
 I start up a .js file with: **let binaryNum = 1001;** I stare at this one line. Ok so now what? So I google how how to make that conversion using plain old math. I find this:
 
-<img src="images//Screen Shot 2019-04-05 at 8.01.36 PM.png">
+<img src="../images/Screen Shot 2019-04-05 at 8.01.36 PM.png">
 
 Ok so brain starts churning. I know I need a loop. The project has some constraints though and it says I can't use an array. So I change the variable type to a string: **let binaryNum = '1001';** Then I say: **let positions = binaryNum.split**; So wait? I just created an array of strings! **['1', '0', '0', '1']**. Hmmm, ok, so now what?
 
@@ -33,7 +33,7 @@ I read up some more on binary and the math formulas that help you convert them. 
 
 I gets late, my brain gets foggy. The next day I just click the [example project link]('https://www.youtube.com/watch?v=YMIALQE26KQ')
 
-<img src="images/Screen Shot 2019-04-05 at 8.29.00 PM.png">
+<img src="../images/Screen Shot 2019-04-05 at 8.29.00 PM.png">
 
 Here's the thing. Even though I didn't solve this by myself, I managed to understand everything that's happening in the function. What that function is essentially doing is taking the string **'11111111'** and doing this:
 
