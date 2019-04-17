@@ -12,9 +12,9 @@ Coding is hard too. Front End Development is using code to put things on the scr
 
 ...
 
-Ever since I completed the #100DaysOfCoding challenge, I've been struggling to find project ideas. I've been going back to the fundamentals and really digging deeply into JavaScript by reading books like [Eloquent JavaScript]('http://eloquentjavascript.net/') and [You Don't Know JS]('https://github.com/getify/You-Dont-Know-JS'). I started a [React course on Udemy]('https://www.udemy.com/react-the-complete-guide-incl-redux/learn/v4/overview'). I've been learning Node.js. The other day I watched a [4 hour Free Code Camp course]('https://www.youtube.com/watch?v=ed8SzALpx1Q&t=3634s') on using Node.js with Express to start a server, using Graphql on the back end with Mongo, and React on the Front-End. I've definitely have learned a lot. But every time I attempt a project on my own, without having anyone to guide me, I struggle with the simplest things.
+Ever since I completed the #100DaysOfCoding challenge, I've been struggling to find project ideas. I've been going back to the fundamentals and really digging deeply into JavaScript by reading books like [Eloquent JavaScript](http://eloquentjavascript.net/) and [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS). I started a [React course on Udemy](https://www.udemy.com/react-the-complete-guide-incl-redux/learn/v4/overview). I've been learning Node.js. The other day I watched a [4 hour Free Code Camp course](https://www.youtube.com/watch?v=ed8SzALpx1Q&t=3634s) on using Node.js with Express to start a server, using Graphql on the back end with Mongo, and React on the Front-End. I've definitely have learned a lot. But every time I attempt a project on my own, without having anyone to guide me, I struggle with the simplest things.
 
-Take this [App Ideas Collection repo]('https://github.com/florinpop17/app-ideas'). The first beginner project listed is a Binary to Decimal converter. I decide to give it a shot. I think to myself, "this should be simple enough. I know what's a binary number. I can probably tackle this in an hour or so." I decide no matter what, not to google any solutions. To really try it.
+Take this [App Ideas Collection repo](https://github.com/florinpop17/app-ideas). The first beginner project listed is a Binary to Decimal converter. I decide to give it a shot. I think to myself, "this should be simple enough. I know what's a binary number. I can probably tackle this in an hour or so." I decide no matter what, not to google any solutions. To really try it.
 
 I start up a .js file with: **let binaryNum = 1001;** I stare at this one line. Ok so now what? So I google how how to make that conversion using plain old math. I find this:
 
@@ -29,7 +29,7 @@ I read up some more on binary and the math formulas that help you convert them. 
 > ...
 > }
 
-I gets late, my brain gets foggy. The next day I just click the [example project link]('https://www.youtube.com/watch?v=YMIALQE26KQ')
+I gets late, my brain gets foggy. The next day I just click the [example project link](https://www.youtube.com/watch?v=YMIALQE26KQ)
 
 <img src="../images/Screen Shot 2019-04-05 at 8.29.00 PM.png">
 
