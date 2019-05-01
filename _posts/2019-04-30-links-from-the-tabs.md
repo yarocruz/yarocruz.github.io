@@ -6,9 +6,9 @@ categories: web-development coding javascript react front-end
 permalink: /links-from-the-tabs/
 ---
 
-I have about 39 open tabs on my Chrome browser. I don't know if this is my daily average, but I'm sure I have over 20 tabs open on a daily basis. I use Instapaper to save links and articles I want to get to later, but I still leave open tabs because I think I can read everything. I rarely shut my computer off, so some tabs stay opened for days. Maybe I have a problem.
+I have 39 open tabs on my Chrome browser. I don't know if this is my daily average, but I'm sure I have over 20 tabs open on a daily basis. I use Instapaper to save links and articles I want to get to later, but I still leave open tabs because I think I can read everything. I rarely shut my computer off, so some tabs stay opened for days. Maybe I have a problem.
 
-Most of the links are Web Dev learning resources.
+So here are the sites I had on my tabs this week. Most of the links are Web Dev learning resources. Maybe I'll make this into a weekly thing.
 
 [Cool App Ideas Repo](https://github.com/florinpop17/app-ideas)
 
