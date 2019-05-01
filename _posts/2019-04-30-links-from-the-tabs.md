@@ -16,7 +16,7 @@ So here are the sites I had on my tabs this week. Most of the links are Web Dev 
 
 [React Focused Front End Study Guide](https://github.com/grab/front-end-guide)
 
-[A Study Plan to Cure JavaScript](https://medium.freecodecamp.org/a-study-plan-to-cure-javascript-fatigue-8ad3a54f2eb1)
+[A Study Plan to Cure JavaScript Fatigue](https://medium.freecodecamp.org/a-study-plan-to-cure-javascript-fatigue-8ad3a54f2eb1)
 
 [React-Redux Links](https://github.com/markerikson/react-redux-links)
 
