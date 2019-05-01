@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Links from the Tabs'
-date: 2019-04-09
+date: 2019-04-30
 categories: web-development coding javascript react front-end
 permalink: /links-from-the-tabs/
 ---
