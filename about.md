@@ -17,4 +17,4 @@ More importantly, I'm trying to become a better Front-End Developer. I've been f
 - I'm a Photographer at a water park in Central Florida.
 - I love books, music, and movies.
 
-That's it. If you want to checkout my design work go [here.](http://yaroskycruz.com/)
+
