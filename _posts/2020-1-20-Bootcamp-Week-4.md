@@ -6,18 +6,6 @@ categories: bootcamp web-development learning
 permalink: /bootcamp-week-4/
 ---
 
-```
-- When clicking on a start button a timer starts
-- The timer displays to the user and starts counting down
-- The first set of questions is presented
-- To chose a question you would use checkboxes
-- If you click the wrong answer time is subtracted from the timer 
-- It should also trigger some style for right or wrong answers
-- When timer reaches 0 or all questions are answered the game is stopped
-- In the end it asks for your initials
-- This will save to local storage with initials with your score
-```
-
 Day 10 was a bit rough. Our main instructor was absent that night so we had a sub. The sub introduced us to Web API's as it relates to the browser's window object, the DOM, and old-school DOM traversal. In my opinion the sub went through the explanations a bit too quickly, assuming that everyone was keeping up. A lot of the students were thrown off. Many were probably hearing the term [Document Object Model](https://javascript.info/browser-environment#dom-document-object-model) for the first time, so when we got through the DOM traversal exercises using  things like **document.body.children[0]** to capture elements on a page, people's brains were exploding. In his defense however, if at this point in the Bootcamp you're still confused about what the DOM is you need to study more. At the end of the class we were introduced to the **setInterval()** functions and how they can be used to create timers.
 
 On Day 11 we covered events and event handling with the .addEventListener method. Mostly the 'click' event, but we were also introduced to the 'change', 'keyup', and 'keydown' events. We also covered event delegation and event bubbling and how they both can be either useful or an issue.
