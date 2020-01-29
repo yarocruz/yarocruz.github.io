@@ -8,9 +8,9 @@ permalink: /bootcamp-week-5/
 
 Week 5 was mostly [jQuery](https://jquery.com/). We started on day 13 with the basics of jQuery like how to link to it through a CDN, selected elements with the **$('element')** syntax, and did other in-class exercises. 
 
-On day 14 we did some more advance stuff like using the  jQuery **.animate()** method. We also looked at **scope** and how it affects how the **this** keyword refers to. 
+On day 14 we did some more advanced stuff like using the  jQuery **.animate()** method. We also looked at **scope** and how it affects what the **this** keyword refers to. 
 
-We ended the week on Day 15 with the longest in-class coding exercise we've done so far. We spent and hour and 45 minutes making a jQuery Calculator. It was supposed to be a group project, but by the end of it we had all checked out. 
+We ended the week on Day 15 with the longest in-class coding exercise we've done so far. We spent 1 hour and 45 minutes making a jQuery Calculator. It was supposed to be a group project, but by the end of it we had all checked out. 
 
 ## Things I'm Still Processing
 
