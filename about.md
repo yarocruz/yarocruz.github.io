@@ -4,12 +4,18 @@ title: About
 permalink: "/about/"
 ---
 
-<img src="../images/portrait.jpg" alt="portrait picture" width="25%" style="float: left; margin-right: 10px"> Hi. My name is Yarosky Cruz. I'm originally from Puerto Rico, but been living in Central Florida for almost a decade now.
+Hello there. My name is Yarosky Cruz. I'm originally from Puerto Rico, but been living in Central Florida for almost a decade now.
 
-I've been making websites for a least a decade. In 2017 I finished my degree in Interactive Design. I can easily fullfill the role of a Web Designer or Junior Front End Developer. Even though my background is in Design, my main focus at the moment is Web Development. I'm currently doing the UCF Coding BootCamp. 
-
-I still love Design. I will always care about how things look. But I also want to go beyond websites and start making web apps.  
+I've been making websites for a least a decade. I've been tinkering with HTML and CSS ever since I got my first Desktop back in the early aughts. I remember having to choose Doctypes when working back then. In 2017 I finished my degree in Interactive Design. This gave me a stronger foundation on Web Design, and some very junior level Front End Dev skills. Since then I have leveled up my Front End skills by taking over a dozen courses online. I'm currently enrolled in [UCF's Full Stack Coding BootCamp](https://bootcamp.ce.ucf.edu/coding/). 
 
 When I'm not slinging code I'm hanging out with my beautiful girlfriend and my dog Oliver. 
+
+## Reach Out
+
+Email : [yarocruz@gmail.com](#) 
+
+Twitter : [JayCruz](https://twitter.com/JayCruz) 
+
+Github: [yarocruz](https://github.com/yarocruz)
 
 
