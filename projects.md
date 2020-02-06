@@ -6,9 +6,7 @@ permalink: "/projects/"
 
 I'm currently in the process of deciding where my projects will live, so this page is subject to change. This whole site is subject to change. I've been considering porting this whole site to Gatsby. Or having a separate Portfolio site. 
 
-In the meantime here's a list of projects I've done. 
-
-## Projects
+In the meantime here's a list of projects I've done:
 
 The States : [Demo](https://yarocruz.github.io/the50states/) / [Code](https://github.com/yarocruz/the50states)
 
