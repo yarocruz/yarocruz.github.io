@@ -4,6 +4,21 @@ title: Projects
 permalink: "/projects/"
 ---
 
-Currently in the process of listing some of my projects here. I'm going through my old interactive Portfolio site and seeing what I can add, discard, or update. In the meantime you can check out [my repos](https://github.com/yarocruz). Of note is my US States projects below which I'm hoping to add more useful features and make it into a bigger project.
+I'm currently in the process of deciding where my projects will live, so this page is subject to change. This whole site is subject to change. I've been considering porting this whole site to Gatsby. Or having a separate Portfolio site. 
 
-[The States](https://yarocruz.github.io/the50states/) / [Repo](https://github.com/yarocruz/the50states)
+In the meantime here's a list of projects I've done. 
+
+## Projects
+
+The States : [Demo](https://yarocruz.github.io/the50states/) / [Code](https://github.com/yarocruz/the50states)
+
+Rock Paper Scissors : [Demo](https://yarocruz.github.io/rps/) / [Code](https://github.com/yarocruz/rps)
+
+Code Quiz : [Demo](https://yarocruz.github.io/code-quiz/index.html) / [Code](https://github.com/yarocruz/code-quiz)
+
+Password Generator : [Demo](https://yarocruz.github.io/password-generator/develop/) / [Code](https://github.com/yarocruz/password-generator)
+
+Work Scheduler : [Demo](https://yarocruz.github.io/workday-scheduler/) / [Code](https://github.com/yarocruz/workday-scheduler)
+
+
+
