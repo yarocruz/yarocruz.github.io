@@ -8,7 +8,7 @@ I'm currently in the process of deciding where my projects will live, so this pa
 
 In the meantime here's a list of projects I've done:
 
-The States : [Demo](https://yarocruz.github.io/the50states/) / [Code](https://github.com/yarocruz/the50states)
+Weather Dashboard : [Demo](https://yarocruz.github.io/weather-dashboard/) / [Code](https://github.com/yarocruz/weather-dashboard)
 
 Rock Paper Scissors : [Demo](https://yarocruz.github.io/rps/) / [Code](https://github.com/yarocruz/rps)
 
