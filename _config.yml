@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 email: yarocruz@gmail.com
-description: I’m a Design student, part-time photographer, and basic front-end web coder. Central FL based. This is a custom blog I'm working on with Jekyll.
+description: I’m a Web Developer with a background in Interactive Design based in Orlando, FL.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: JayCruz
