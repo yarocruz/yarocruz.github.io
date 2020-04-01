@@ -8,6 +8,10 @@ I'm currently in the process of deciding where my projects will live, so this pa
 
 In the meantime here's a list of projects I've done:
 
+Quit Smoking Tracker : [Demo](https://quit-smoking-date.netlify.com/) / [Code](https://github.com/yarocruz/quit-smoking-date)
+
+Note Taker : [Demo](https://secret-ravine-58567.herokuapp.com/) / [Code](https://github.com/yarocruz/note-taker)
+
 Weather Dashboard : [Demo](https://yarocruz.github.io/weather-dashboard/) / [Code](https://github.com/yarocruz/weather-dashboard)
 
 Rock Paper Scissors : [Demo](https://yarocruz.github.io/rps/) / [Code](https://github.com/yarocruz/rps)
