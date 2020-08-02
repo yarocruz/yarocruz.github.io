@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Web Programming is Hard
+title: 'Web Programming is Hard'
 date: 2020-08-02
 categories: learning web-development 
 permalink: /web-programming-is-hard/
