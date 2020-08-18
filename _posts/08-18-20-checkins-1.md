@@ -3,7 +3,7 @@ layout: post
 title: 'Checkins - #1'
 date: 2020-08-02
 categories: learning web-development 
-permalink: /web-programming-is-hard/
+permalink: /checkins-1/
 ---
 
 # Books 
