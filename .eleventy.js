@@ -1,5 +1,7 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
+const { DateTime } = require("luxon");
+
 module.exports = function (config) {
 
     config.addPassthroughCopy("images") // makes sure that these files get outputed
@@ -14,5 +16,15 @@ module.exports = function (config) {
     // layout: post. If you don’t want to rewrite all of those values, just map
     // post to a new file like this:
     // eleventyConfig.addLayoutAlias("post", "layouts/my_new_post_layout.njk");
+
+    // Date formatting (human readable)
+    config.addFilter("readableDate", dateObj => {
+        return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
+    });
+
+    // Date formatting (machine readable)
+    config.addFilter("machineDate", dateObj => {
+        return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
+    });
 
 }

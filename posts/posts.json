@@ -1,5 +1,6 @@
 {
   "layout": "layouts/post.njk",
   "permalink": "posts/{{ title | slug }}/index.html",
-  "tags": ["posts"]
+  "tags": ["posts"],
+  "author": "Jay Cruz"
 }

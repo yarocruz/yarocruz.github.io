@@ -5,5 +5,6 @@ description: Testing with a third post
 date: 2020-12-13T05:00:00.000Z
 tags:
   - tech
+  - posts
 ---
 See what I did here you guys.
