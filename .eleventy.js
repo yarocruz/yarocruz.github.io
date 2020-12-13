@@ -1,5 +1,5 @@
 module.exports = function (config) {
     config.addPassthroughCopy("images") // makes sure that these files get outputed
     config.addPassthroughCopy("admin")
-    config.addPassthroughCopy(".css")
+    config.addPassthroughCopy("css")
 }
