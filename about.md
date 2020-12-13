@@ -1,9 +1,3 @@
----
-layout: page
-title: About
-permalink: "/about/"
----
-
 Hi, I'm Jay Cruz and I'm a Web Developer based in Orlando, FL. I mostly dabble in client-side JavaScript to build websites and web apps. I like using [React](https://reactjs.org/) and sometimes [Vue](https://vuejs.org/) for building  Front-End apps.
 
 I started tinkering with HTML and CSS back when I got my first PC in the early 2000s when I tried to make my own website. This got me interested in Web Design which eventually led me to getting a degree in Interactive Design in 2017. I took a stab at being a Web Designer for a bit, but I transitioned into  Development and in 2019-2020 I did a Coding Bootcamp. 

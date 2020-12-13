@@ -4,7 +4,7 @@
   "description": "This is my blog, there are many like it, but this one is mine.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss css/tailwind.css -o _site/css/tailwind.css"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,11 @@
   "homepage": "https://github.com/yarocruz/yarocruz.github.io#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
   }
 }
