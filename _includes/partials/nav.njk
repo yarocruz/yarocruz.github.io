@@ -1,8 +1,8 @@
 <nav>
 {% set navPages = collections.all | eleventyNavigation %}
-<ul class="flex justify-around">
+<ul class="flex">
     {%- for entry in navPages %}
-        <li>
+        <li class="pl-5">
             <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
         </li>
     {%- endfor %}

@@ -3,11 +3,10 @@
         <title>Jay Cruz Site</title>
         <link rel="stylesheet" href="/assets/css/tailwind.css">
     </head>
-    <body>
-        <header>
+    <body class="p-5">
+        <header class="flex justify-between justify-items-center pb-5 mb-3 border-b-8 border-indigo-600">
             <h1 class="text-purple-700"><a href="{{ "/" | url }}">Jay Cruz</a></h1>
             {% include "partials/nav.njk" %}
-            <hr />
         </header>
         {{ content | safe }}
     </body>
