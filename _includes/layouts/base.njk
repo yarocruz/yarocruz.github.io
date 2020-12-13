@@ -4,7 +4,11 @@
         <link rel="stylesheet" href="/assets/css/tailwind.css">
     </head>
     <body>
-        <h1 class="text-purple-700">Jay Cruz Site</h1>
+        <header>
+            <h1 class="text-purple-700"><a href="{{ "/" | url }}">Jay Cruz</a></h1>
+            {% include "partials/nav.njk" %}
+            <hr />
+        </header>
         {{ content | safe }}
     </body>
 </html>
