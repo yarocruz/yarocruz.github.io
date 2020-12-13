@@ -1,7 +1,19 @@
 ---
 layout: layouts/base.njk
+section: post
 ---
 
 <h2>{{ title }}</h2>
-<img class="w-auto" src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
+<img class="w-auto" src="{{ featuredImage | url }}" alt="{{ featuredImage }}" />
 <p>{{ content | safe }}</p>
+
+{% if tags %}
+    <p>
+        {% for tag in tags %}
+            {%- if tag != "posts" -%}
+                {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+            {%- endif -%}
+        {% endfor %}
+    </p>
+{% endif %}
