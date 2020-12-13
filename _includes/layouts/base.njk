@@ -1,7 +1,9 @@
 <html>
     <head>
         <title>Jay Cruz Site</title>
-        <link rel="stylesheet" href="/css/tailwind.css">
+        {% set css %}
+            {% include "/css/tailwind.css" %}
+          {% endset %}
     </head>
     <body>
         <h1 class="text-purple-600">Jay Cruz Site</h1>
