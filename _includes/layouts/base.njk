@@ -1,7 +1,10 @@
 <html>
     <head>
         <title>Jay Cruz Site</title>
-        <link rel="stylesheet" href="/assets/css/tailwind.css">
+        {% set css %}
+            {% include "assets/css/tailwind.css" %}
+          {% endset %}
+          <style>{{ css | cssmin | safe }}</style>
     </head>
     <body>
         <h1 class="text-purple-600">Jay Cruz Site</h1>
