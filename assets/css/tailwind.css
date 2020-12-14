@@ -479,6 +479,10 @@ img {
   margin-right: auto;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .mr-3 {
   margin-right: 0.75rem;
 }
@@ -499,8 +503,20 @@ img {
   max-width: 65ch;
 }
 
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
 .p-5 {
   padding: 1.25rem;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
 }
 
 .pl-5 {
@@ -528,6 +544,10 @@ img {
 .text-purple-700 {
   --tw-text-opacity: 1;
   color: rgba(109, 40, 217, var(--tw-text-opacity));
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 
 .w-auto {
