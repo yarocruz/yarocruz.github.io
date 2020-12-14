@@ -31175,6 +31175,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #14396A;
 }
 
+p {
+  color: #383838;
+}
+
 .border1 {
   background-color: #14396A;
   height: 8px;
