@@ -3,17 +3,23 @@ layout: layouts/base.njk
 section: post
 ---
 
-<h2>{{ title }}</h2>
-<img class="w-auto" src="{{ featuredImage | url }}" alt="{{ featuredImage }}" />
-<p>{{ content | safe }}</p>
+<div class="my-20">
+    <h1 class="font-bold text-3xl">{{ title }}</h1>
+    {% if featuredImage %}<img class="w-auto mt-5" src="{{ featuredImage | url }}" alt="{{ featuredImage }}" />{% endif %}
+    {{ content | safe }}
 
-{% if tags %}
-    <p>
-        {% for tag in tags %}
-            {%- if tag != "posts" -%}
-                {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-                <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-            {%- endif -%}
-        {% endfor %}
-    </p>
-{% endif %}
+    {% if tags %}
+        <p>
+            {% for tag in tags %}
+                {%- if tag != "posts" -%}
+                    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                    <a class="tag mr-3" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+                {%- endif -%}
+            {% endfor %}
+        </p>
+    {% endif %}
+</div>
+
+<nav>
+    <a href="{{ '/' | url }}">← Blog index</a>
+</nav>

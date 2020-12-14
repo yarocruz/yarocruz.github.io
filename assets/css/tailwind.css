@@ -31169,6 +31169,7 @@ video {
 
 body {
   font-family: 'Inter', sans-serif;
+  color: #14396A;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31177,6 +31178,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   color: #383838;
+  margin: 20px auto;
+  line-height: 1.625;
 }
 
 .border1 {
