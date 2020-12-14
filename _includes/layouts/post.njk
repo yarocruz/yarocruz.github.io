@@ -5,19 +5,21 @@ section: post
 
 <div class="my-20">
     <h1 class="font-bold text-3xl">{{ title }}</h1>
-    {% if featuredImage %}<img class="w-auto mt-5" src="{{ featuredImage | url }}" alt="{{ featuredImage }}" />{% endif %}
-    {{ content | safe }}
+    <div class="max-w-prose">
+        {% if featuredImage %}<img class="w-auto mt-5" src="{{ featuredImage | url }}" alt="{{ featuredImage }}" />{% endif %}
+        {{ content | safe }}
 
-    {% if tags %}
-        <p>
-            {% for tag in tags %}
-                {%- if tag != "posts" -%}
-                    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-                    <a class="tag mr-3" href="{{ tagUrl | url }}" rel="tag"><small>{{ tag }}</small></a>
-                {%- endif -%}
-            {% endfor %}
-        </p>
-    {% endif %}
+        {% if tags %}
+            <p>
+                {% for tag in tags %}
+                    {%- if tag != "posts" -%}
+                        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                        <a class="tag mr-3" href="{{ tagUrl | url }}" rel="tag"><small>{{ tag }}</small></a>
+                    {%- endif -%}
+                {% endfor %}
+            </p>
+        {% endif %}
+    </div>
 </div>
 
 <nav>

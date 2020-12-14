@@ -491,6 +491,10 @@ img {
   margin-top: 1.25rem;
 }
 
+.max-w-prose {
+  max-width: 65ch;
+}
+
 .p-5 {
   padding: 1.25rem;
 }
