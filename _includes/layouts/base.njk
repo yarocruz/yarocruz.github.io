@@ -5,14 +5,16 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;403;500;700;900&display=swap" rel="stylesheet">
     </head>
-    <body class="container mx-auto p-5 w-11/12">
-        <header class="flex justify-between justify-items-center items-center mb-3">
+    <body class="container my-16 mx-auto p-5 w-11/12">
+        <header class="flex justify-between justify-items-center items-end mb-3">
             <h1 class="font-black text-4xl uppercase"><a href="{{ "/" | url }}">Jay Cruz</a></h1>
             {% include "partials/nav.njk" %}
         </header>
-        <div class="border1"></div>
-        <div class="border2"></div>
-        <div class="border3 mb-3"></div>
+        <div class="shadow-md mb-3">
+            <div class="border1"></div>
+            <div class="border2"></div>
+            <div class="border3"></div>
+        </div>
         {{ content | safe }}
     </body>
 </html>
