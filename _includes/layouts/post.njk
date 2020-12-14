@@ -13,7 +13,7 @@ section: post
             {% for tag in tags %}
                 {%- if tag != "posts" -%}
                     {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-                    <a class="tag mr-3" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+                    <a class="tag mr-3" href="{{ tagUrl | url }}" rel="tag"><small>{{ tag }}</small></a>
                 {%- endif -%}
             {% endfor %}
         </p>
