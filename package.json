@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-navigation": "^0.1.6",
+    "@fullhuman/postcss-purgecss": "^3.1.0",
     "autoprefixer": "^10.1.0",
     "clean-css": "^4.2.3",
     "postcss": "^8.2.1",
