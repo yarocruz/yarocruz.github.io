@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #14396A;
+}
+
+.border1 {
+    background-color: #14396A;
+    height: 8px;
+    max-width: 100%;
+}
+.border2 {
+    background-color: #03C2C9;
+    height: 8px;
+    max-width: 100%;
+}
+
+.border3 {
+    background-color: #DADADA;
+    height: 8px;
+    max-width: 100%;
+}
+
+.tag {
+    background-color: #03C2C9;
+    padding: 4px 15px;
+    color: white;
+    border-radius: 4px;
+}
+
+.author-link {
+    color: #03C2C9;
+}

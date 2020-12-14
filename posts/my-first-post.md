@@ -6,6 +6,7 @@ date: 2020-12-12
 featuredImage: /images/loops.jpg
 tags:
     - random
+    - gatsby
     - posts
 ---
 

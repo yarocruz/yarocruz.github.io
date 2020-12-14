@@ -4,7 +4,7 @@
   "description": "This is my blog, there are many like it, but this one is mine.",
   "main": "index.js",
   "scripts": {
-    "build": "ELEVENTY_PRODUCTION=true postcss css/tailwind.css -o assets/css/tailwind.css"
+    "build": "postcss css/tailwind.css -o assets/css/tailwind.css"
   },
   "repository": {
     "type": "git",
