@@ -31179,7 +31179,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
   color: #383838;
   margin: 20px auto;
-  line-height: 1.625;
+  font-size: 1.125rem;
+  line-height: 1.75rem
 }
 
 .border1 {
