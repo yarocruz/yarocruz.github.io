@@ -491,6 +491,10 @@ img {
   margin-top: 1.25rem;
 }
 
+.max-w-4xl {
+  max-width: 56rem;
+}
+
 .max-w-prose {
   max-width: 65ch;
 }
@@ -524,10 +528,6 @@ img {
 .text-purple-700 {
   --tw-text-opacity: 1;
   color: rgba(109, 40, 217, var(--tw-text-opacity));
-}
-
-.w-11 {
-  width: 2.75rem;
 }
 
 .w-auto {
