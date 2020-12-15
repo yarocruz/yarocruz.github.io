@@ -19,17 +19,17 @@
                 </time>
             </p>
             {% if post.data.tags %}
-            <p class="my-4">
                 {% for tag in post.data.tags %}
                     {%- if tag != "posts" -%}
                         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-                        <a class="tag mr-3" href="{{ tagUrl | url }}" rel="tag"><small>{{ tag }}</small></a>
+                        <small class="mr-3"><a class="tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></small>
                     {%- endif %}
                 {% endfor %}
-            </p>
             {% endif %}
         </li>
        <hr >
-
    {% endfor %}
 </ul>
+
+
+
