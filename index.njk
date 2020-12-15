@@ -1,7 +1,10 @@
 ---
-layout: layouts/base.njk
+layout: layouts/postslist.njk
 ---
 
-This is my blog, there are many like it, but this one is mine.
+<p>This is my blog, there are many like it, but this one is mine.</p>
+
 {% set postslist = collections.posts %}
-{% include "postslist.njk" %}
+{% include "layouts/postslist.njk" %}
+
+

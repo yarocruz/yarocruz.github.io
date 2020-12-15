@@ -1,5 +1,13 @@
+---
+layout: layouts/base.njk
+pagination:
+    data: collections.posts
+    size: 2
+    alias: posts
+---
+
 <ul class="my-20">
-   {% for post in postslist | reverse %}
+   {% for post in posts | reverse %}
         <li class="my-7" {% if post.url == url %} data-current="current item"{% endif %}>
             <h1 class="font-bold text-3xl">
                 <a href="{{ post.url | url }}">{{ post.data.title }}</a>
@@ -30,6 +38,9 @@
        <hr >
    {% endfor %}
 </ul>
+
+{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Previous Page</a>{% endif %}
+{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next Page &#8594;</a>{% endif %}
 
 
 
