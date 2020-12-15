@@ -420,11 +420,6 @@ img {
   margin-bottom: 0.75rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .my-7 {
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
@@ -567,6 +562,10 @@ p {
   line-height: 1.75rem
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .border1 {
   background-color: #14396A;
   height: 8px;
@@ -586,10 +585,17 @@ p {
 }
 
 .tag {
-  background-color: #03C2C9;
-  padding: 5px 15px;
   color: white;
   border-radius: 4px;
+  padding: 5px 15px;
+  background-color: #03C2C9;
+  border: 2px solid #03C2C9;
+}
+
+.tag:hover {
+  border: 2px solid #03C2C9;
+  text-decoration: none;
+  background-color: #14396A;
 }
 
 .author-link {

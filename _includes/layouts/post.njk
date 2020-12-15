@@ -13,12 +13,13 @@ layout: layouts/base.njk
                 {% for tag in tags %}
                     {%- if tag != "posts" -%}
                         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-                        <a class="tag mr-3" href="{{ tagUrl | url }}" rel="tag"><small>{{ tag }}</small></a>
+                        <small class="mr-3"><a class="tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></small>
                     {%- endif -%}
                 {% endfor %}
             </p>
         {% endif %}
     </div>
+    <hr />
 </div>
 
 <nav>

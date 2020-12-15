@@ -5,7 +5,7 @@ description: This something super cool
 date: 2020-12-14T05:00:00.000Z
 featuredImage: /images/uploads/profile-pic.jpeg
 tags:
-  - post
+  - posts
   - hamburger
   - profile
   - photography
