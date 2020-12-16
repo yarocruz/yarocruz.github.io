@@ -3,11 +3,6 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const { DateTime } = require("luxon");
 
 module.exports = function (config) {
-
-    config.addPassthroughCopy("images") // makes sure that these files get outputed
-    config.addPassthroughCopy("admin")
-    config.addPassthroughCopy("assets/css/tailwind.css")
-
     // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
     config.addPlugin(eleventyNavigationPlugin);
 
@@ -19,12 +14,17 @@ module.exports = function (config) {
 
     // Date formatting (human readable)
     config.addFilter("readableDate", dateObj => {
-        return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
+        console.log(dateObj)
+        return DateTime.fromJSDate(dateObj).toFormat("LLL dd yyyy");
     });
 
     // Date formatting (machine readable)
     config.addFilter("machineDate", dateObj => {
+        console.log(dateObj)
         return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
     });
 
+    config.addPassthroughCopy("images") // makes sure that these files get outputed
+    config.addPassthroughCopy("admin")
+    config.addPassthroughCopy("assets/css/tailwind.css")
 }
