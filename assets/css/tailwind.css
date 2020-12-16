@@ -93,11 +93,6 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 Add the correct font weight in Edge and Safari.
 */
 
-
-strong {
-  font-weight: bolder;
-}
-
 /**
 1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 2. Correct the odd 'em' font sizing in all browsers.
@@ -393,10 +388,6 @@ img {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -456,6 +447,14 @@ img {
   margin-top: 1.25rem;
 }
 
+.mr-8 {
+  margin-right: 2rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .max-w-4xl {
   max-width: 56rem;
 }
@@ -494,9 +493,9 @@ img {
   --tw-ring-shadow: 0 0 #0000;
 }
 
-.text-purple-700 {
+.text-gray-400 {
   --tw-text-opacity: 1;
-  color: rgba(109, 40, 217, var(--tw-text-opacity));
+  color: rgba(156, 163, 175, var(--tw-text-opacity));
 }
 
 .whitespace-nowrap {
@@ -551,6 +550,10 @@ body {
   color: #14396A;
 }
 
+.deep-blue {
+  color: #14396A;
+}
+
 h1, h2 {
   color: #14396A;
 }
@@ -562,8 +565,16 @@ p {
   line-height: 1.75rem
 }
 
+a {
+  color: #03C2C9;
+}
+
 a:hover {
   text-decoration: underline;
+}
+
+nav, .nav a {
+  color: #14396A;
 }
 
 .border1 {

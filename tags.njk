@@ -18,11 +18,11 @@ renderData:
 
 {% set postslist = collections[ tag ] %}
 
-<ul class="my-20">
+<ul class="mb-20">
     {% for post in postslist | reverse %}
         <li class="my-7" {% if post.url == url %} data-current="current item"{% endif %}>
             <h1 class="font-bold text-3xl">
-                <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+                <a class="deep-blue" href="{{ post.url | url }}">{{ post.data.title }}</a>
             </h1>
             <p class="my-3">
                 {{- post.data.description -}}

@@ -7,6 +7,10 @@ body {
     color: #14396A;
 }
 
+.deep-blue {
+    color: #14396A;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: #14396A;
 }
@@ -18,8 +22,16 @@ p {
     line-height: 1.75rem
 }
 
+a {
+    color: #03C2C9;
+}
+
 a:hover {
     text-decoration: underline;
+}
+
+nav, .nav a {
+    color: #14396A;
 }
 
 .border1 {
