@@ -14,13 +14,11 @@ module.exports = function (config) {
 
     // Date formatting (human readable)
     config.addFilter("readableDate", dateObj => {
-        console.log(dateObj)
         return DateTime.fromJSDate(dateObj).toFormat("LLL dd yyyy");
     });
 
     // Date formatting (machine readable)
     config.addFilter("machineDate", dateObj => {
-        console.log(dateObj)
         return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
     });
 

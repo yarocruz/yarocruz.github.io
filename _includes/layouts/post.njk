@@ -19,9 +19,13 @@ layout: layouts/base.njk
             </p>
         {% endif %}
     </div>
+
     <hr />
 </div>
 
 <nav>
     <a href="{{ '/' | url }}">← Blog index</a>
 </nav>
+
+{% if pagination.href.previous %}<a class="mr-8" href="{{ pagination.href.previous }}">← Previous</a>{% endif %}
+{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next &#8594;</a>{% endif %}
