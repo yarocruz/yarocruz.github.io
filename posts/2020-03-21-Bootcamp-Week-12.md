@@ -1,6 +1,6 @@
 ---
 title: 'Bootcamp Week 12'
-categories: 
+tags: 
     - bootcamp
     - servers
     - node

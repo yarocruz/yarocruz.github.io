@@ -4,6 +4,7 @@ tags:
     - bootcamp
     - web development
     - learning
+    - posts
 ---
 
 Week 5 was mostly [jQuery](https://jquery.com/). We started on day 13 with the basics of jQuery like how to link to it through a CDN, selected elements with the **$('element')** syntax, and did other in-class exercises. 

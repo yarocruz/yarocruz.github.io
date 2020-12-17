@@ -4,6 +4,7 @@ tags:
     - personal development
     - goals
     - resolutions
+    - posts
 ---
 
 Do not make resolutions this year. Do not list your goals as to-do items you'll get to check off, because you won't. Instead, let's make implementation intentions this year. 

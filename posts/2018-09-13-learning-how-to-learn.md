@@ -1,6 +1,6 @@
 ---
 title: "Learning How to Learn"
-categories: 
+tags: 
     - web development
     - coding
     - posts
