@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>Jay Cruz Site</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/assets/css/tailwind.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;403;500;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body class="my-16 mx-auto p-5 md:w-8/12">
+        <header class="md:flex justify-between justify-items-center items-end mb-3">
+            <h1 class="font-black text-4xl"><a class="deep-blue" href="/">Jay Cruz</a></h1>
+            <nav class="nav">
+
+<ul class="flex whitespace-nowrap mt-3 overflow-x-auto">
+        <li class="pr-5 md:pr-0 md:pl-5">
+            <a class="font-bold" href="/about-me/">About Me</a>
+        </li>
+        <li class="pr-5 md:pr-0 md:pl-5">
+            <a class="font-bold" href="/portfolio/">Portfolio</a>
+        </li>
+        <li class="pr-5 md:pr-0 md:pl-5">
+            <a class="font-bold" href="/pages/music/">Music</a>
+        </li>
+        <li class="pr-5 md:pr-0 md:pl-5">
+            <a class="font-bold" href="/pages/books/">Books</a>
+        </li>
+        <li class="pr-5 md:pr-0 md:pl-5">
+            <a class="font-bold" href="/movies/">Movies</a>
+        </li>
+</ul>
+</nav>
+        </header>
+        <div class="shadow-md mb-20">
+            <div class="border1"></div>
+            <div class="border2"></div>
+            <div class="border3"></div>
+        </div>
+        <div class="max-w-prose">
+            
+<div class="my-20">
+    <h1 class="font-bold text-3xl">Bootcamp Week 14</h1>
+    <div class="max-w-prose">
+        
+        <p>Week 14 was the last part in the SQL saga. Since Week 12 we've been learning how to work with a relational database and got an on overview on the approaches of building a full stack application around MySQL. The biggest take away for me was digging deeper into the <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">MVC</a> software design pattern.</p>
+<p>We learned <a href="https://sequelize.org/v5/">Sequelize</a> an ORM package that makes using SQL with JS a breeze. From what I'm understanding, it's basically abstracting away the SQL queries you would need to write. Instead of having to write something like in the example below:</p>
+<pre><code>SELECT `Author`.`id`, `Author`.`name`, `Author`.`createdAt`, `Author`.`updatedAt`, `Posts`.`id` AS `Posts.id`, `Posts`.`title` AS `Posts.title`, `Posts`.`body` AS `Posts.body`, `Posts`.`createdAt` AS `Posts.createdAt`, `Posts`.`updatedAt` AS `Posts.updatedAt`, `Posts`.`AuthorId` AS `Posts.AuthorId` FROM `Authors` AS `Author` LEFT OUTER JOIN `Posts` AS `Posts` ON `Author`.`id` = `Posts`.`AuthorId`;
+</code></pre>
+<p>You write something like this:</p>
+<pre><code>module.exports = function(sequelize, DataTypes) {
+  var Author = sequelize.define(&quot;Author&quot;, {
+    // Giving the Author model a name of type STRING
+    name: DataTypes.STRING
+  });
+
+  Author.associate = function(models) {
+    // Associating Author with Posts
+    // When an Author is deleted, also delete any associated Posts
+    Author.hasMany(models.Post, {
+      onDelete: &quot;cascade&quot;
+    });
+  };
+
+  return Author;
+};
+</code></pre>
+<p>I'm loving it. It's way easier to reason about. Though you still need to have a good understanding of how SQL works, you don't have to write verbose SQL JOIN queries.</p>
+<p>It's been a good week. I'm participating more in the Zoom chats. I'm unmuting the mic every once in a while, I'm sharing my screen and letting people see my 40 open tabs on Chrome. I'm enjoying it. Starting to get used to doing remote classes now. At this point it's uncertain if we will ever have in person classes since we're done by June.</p>
+<p>This week's due project was the <a href="https://aqueous-beyond-86348.herokuapp.com/">Eat Da Burger app</a>, a very basic and silly web app that's more about showcasing <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> functionality. Even though we were given a big blueprint on how to build this app and directions on how to deploy to Heroku, I'm super proud on how it turned out. Right now it's mostly a CRU app, so don't go crazy adding burgers. It's not healthy for you anyway.</p>
+<p>Coming up for the next 2 weeks is Project 2. The second group project. Let's see how this one goes.</p>
+
+
+        
+
+        <p class="my-3">
+            <time datetime="2020-04-04">
+                <small class="text-gray-400">Apr 04 2020 by <a class="author-link" href="/authors/jay-cruz/">Jay Cruz</a></small>
+            </time>
+        </p>
+
+        
+            <p>
+                
+                        <small class="mr-3"><a class="tag" href="/tags/bootcamp/" rel="tag">bootcamp</a></small>
+                        <small class="mr-3"><a class="tag" href="/tags/servers/" rel="tag">servers</a></small>
+                        <small class="mr-3"><a class="tag" href="/tags/node/" rel="tag">node</a></small>
+                        <small class="mr-3"><a class="tag" href="/tags/sql/" rel="tag">sql</a></small>
+                        <small class="mr-3"><a class="tag" href="/tags/database/" rel="tag">database</a></small>
+                        <small class="mr-3"><a class="tag" href="/tags/sequelize/" rel="tag">sequelize</a></small>
+            </p>
+        
+    </div>
+    <ul class="mb-3"><li class="mb-3">Previous Post: <a href="/posts/bootcamp-week-15/">Bootcamp Week 15</a></li><li>Next Post: <a href="/posts/bootcamp-week-13/">Bootcamp Week 13</a></li>
+    </ul>
+    <hr />
+</div>
+
+<nav>
+    <a href="/">← Blog index</a>
+</nav>
+
+
+
+        </div>
+
+         <footer class="my-16">
+    <small class="text-gray-400">
+        This site was built with love, <a href="https://www.11ty.dev/">Eleventy</a>, and <a href="https://tailwindcss.com/">Tailwind</a>.
+    </small>
+</footer>
+    </body>
+</html>

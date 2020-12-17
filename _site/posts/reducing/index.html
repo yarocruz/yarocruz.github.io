@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>Jay Cruz Site</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/assets/css/tailwind.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;403;500;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body class="my-16 mx-auto p-5 md:w-8/12">
+        <header class="md:flex justify-between justify-items-center items-end mb-3">
+            <h1 class="font-black text-4xl"><a class="deep-blue" href="/">Jay Cruz</a></h1>
+            <nav class="nav">
+
+<ul class="flex whitespace-nowrap mt-3 overflow-x-auto">
+        <li class="pr-5 md:pr-0 md:pl-5">
+            <a class="font-bold" href="/about-me/">About Me</a>
+        </li>
+        <li class="pr-5 md:pr-0 md:pl-5">
+            <a class="font-bold" href="/portfolio/">Portfolio</a>
+        </li>
+        <li class="pr-5 md:pr-0 md:pl-5">
+            <a class="font-bold" href="/pages/music/">Music</a>
+        </li>
+        <li class="pr-5 md:pr-0 md:pl-5">
+            <a class="font-bold" href="/pages/books/">Books</a>
+        </li>
+        <li class="pr-5 md:pr-0 md:pl-5">
+            <a class="font-bold" href="/movies/">Movies</a>
+        </li>
+</ul>
+</nav>
+        </header>
+        <div class="shadow-md mb-20">
+            <div class="border1"></div>
+            <div class="border2"></div>
+            <div class="border3"></div>
+        </div>
+        <div class="max-w-prose">
+            
+<div class="my-20">
+    <h1 class="font-bold text-3xl">Reducing</h1>
+    <div class="max-w-prose">
+        
+        <p>I've known about the <strong>Array.reduce</strong> method for a bit, but I had a superficial understanding of how it actually worked. All I knew was that it would take an array of values, and reduce it down to one value.</p>
+<p>![code sample](/images/Screen Shot 2020-08-31 at 3.47.43 PM.png)</p>
+<p>The example above is summing all the numbers in the array, but I mostly just had this memorized and when I saw examples of reduce being used for in other contexts I always got confused. It wasn't until recently when it all finally clicked. Specifically, it wasn't until I went through an <a href="https://www.executeprogram.com/courses/javascript-array">Execute Program's</a> course on JavaScript arrays.</p>
+<p>![code sample](../images/Screen Shot 2020-08-31 at 4.02.07 PM.png)</p>
+<p>Lets break the above down a bit:</p>
+<p>We have an add function that can take two arguments, a and b, numbers basically, and return the addition of a and b. Easy peasy. We got an array of numbers [1, 20, 300, 400]. We're also starting a sum variable with a value of 0. Finally, we're doing a .forEach on the array of numbers and storing in the sum variable the return value sum + num, and num here is each number in the array. So in the first iteration we are doing 0 + 1, second iteration we are doing 1 + 20. Third, 21 + 300, and last iteration 321 + 400 which will equal in the end to 721.</p>
+<p>Another thing to note about the reduce function, is that it has a second optional argument for the starting accumulator value.</p>
+<p>![code sample](../images/Screen Shot 2020-08-31 at 4.19.36 PM.png)</p>
+<p>If you omit the value, the accumulator value will start and take the value of the first item in the array.</p>
+<p>![code sample](../images/Screen Shot 2020-08-31 at 4.24.16 PM.png)</p>
+<p>With this one we will end up at 331.</p>
+<p>What about using reduce for other things other than math operations? This is when things start to get interesting. Have you ever tried to flatten an array of arrays into just one single array. Basically taking this [ [1, 3, 'pony'], [1], [true]] into this [1, 3, 'pony', 1, true] with a for loop. Trust me, it's not fun. With reduce this is a bit straight forward.</p>
+<p>![code sample](../images/Screen Shot 2020-08-31 at 4.31.20 PM.png)</p>
+<p>The above translates as first iteration [1].concat[2,3], then on second iteration the accumulator, the acc, is [1,2,3] and we concat [4] to it, and we end up with [1, 2, 3, 4]. We're giving an empty array[] as the second argument just in case you try to do reduce on an empty array. If you do try to reduce on an empty array without having a default value for the accumulator you will get a type error. For things like summing up an array of numbers it's safer to omit that second value, but with other operations it is best to to start with a value.</p>
+<p>Reduce is tricky, and it took me while to finally get a grip on it, so I hope this helps clarify some of its nuances.</p>
+
+
+        
+
+        <p class="my-3">
+            <time datetime="2020-08-31">
+                <small class="text-gray-400">Aug 31 2020 by <a class="author-link" href="/authors/jay-cruz/">Jay Cruz</a></small>
+            </time>
+        </p>
+
+        
+            <p>
+                
+                        <small class="mr-3"><a class="tag" href="/tags/javascript/" rel="tag">javascript</a></small>
+                        <small class="mr-3"><a class="tag" href="/tags/reduce/" rel="tag">reduce</a></small>
+                        <small class="mr-3"><a class="tag" href="/tags/arrays/" rel="tag">arrays</a></small>
+            </p>
+        
+    </div>
+    <ul class="mb-3"><li class="mb-3">Previous Post: <a href="/posts/titles-terms-and-jargon/">Titles Terms and Jargon</a></li><li>Next Post: <a href="/posts/checkins-1/">Checkins - #1</a></li>
+    </ul>
+    <hr />
+</div>
+
+<nav>
+    <a href="/">← Blog index</a>
+</nav>
+
+
+
+        </div>
+
+         <footer class="my-16">
+    <small class="text-gray-400">
+        This site was built with love, <a href="https://www.11ty.dev/">Eleventy</a>, and <a href="https://tailwindcss.com/">Tailwind</a>.
+    </small>
+</footer>
+    </body>
+</html>

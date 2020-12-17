@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Jay Cruz Site</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/assets/css/tailwind.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;403;500;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body class="my-16 mx-auto p-5 md:w-8/12">
+        <header class="md:flex justify-between justify-items-center items-end mb-3">
+            <h1 class="font-black text-4xl"><a class="deep-blue" href="/">Jay Cruz</a></h1>
+            <nav class="nav">
+
+<ul class="flex whitespace-nowrap mt-3 overflow-x-auto">
+        <li class="pr-5 md:pr-0 md:pl-5">
+            <a class="font-bold" href="/about-me/">About Me</a>
+        </li>
+        <li class="pr-5 md:pr-0 md:pl-5">
+            <a class="font-bold" href="/portfolio/">Portfolio</a>
+        </li>
+        <li class="pr-5 md:pr-0 md:pl-5">
+            <a class="font-bold" href="/pages/music/">Music</a>
+        </li>
+        <li class="pr-5 md:pr-0 md:pl-5">
+            <a class="font-bold" href="/pages/books/">Books</a>
+        </li>
+        <li class="pr-5 md:pr-0 md:pl-5">
+            <a class="font-bold" href="/movies/">Movies</a>
+        </li>
+</ul>
+</nav>
+        </header>
+        <div class="shadow-md mb-20">
+            <div class="border1"></div>
+            <div class="border2"></div>
+            <div class="border3"></div>
+        </div>
+        <div class="max-w-prose">
+            
+<div class="my-20">
+    <h1 class="font-bold text-3xl">Math is Hard</h1>
+    <div class="max-w-prose">
+        
+        <p>Math is hard. I've never hated math back in school, but I also never did it, like, for fun. I did decent in college with the required math classes. As long as I payed attention, took lots of notes, and never missed a class, I was ok.</p>
+<p>Coding is hard too. Front End Development is using code to put things on the screen, and make the things do things on the screen. Putting the things on the screen is the easy part. Making the things do things is when things get complex.</p>
+<p>...</p>
+<p>Ever since I completed the #100DaysOfCoding challenge, I've been struggling to find project ideas. I've been going back to the fundamentals and really digging deeply into JavaScript by reading books like <a href="http://eloquentjavascript.net/">Eloquent JavaScript</a> and <a href="https://github.com/getify/You-Dont-Know-JS">You Don't Know JS</a>. I started a <a href="https://www.udemy.com/react-the-complete-guide-incl-redux/learn/v4/overview">React course on Udemy</a>. I've been learning Node.js. The other day I watched a <a href="https://www.youtube.com/watch?v=ed8SzALpx1Q&amp;t=3634s">4 hour Free Code Camp course</a> on using Node.js with Express to start a server, using Graphql on the back end with Mongo, and React on the Front-End. I've definitely have learned a lot. But every time I attempt a project on my own, without having anyone to guide me, I struggle with the simplest things.</p>
+<p>Take this <a href="https://github.com/florinpop17/app-ideas">App Ideas Collection repo</a>. The first beginner project listed is a Binary to Decimal converter. I decide to give it a shot. I think to myself, &quot;this should be simple enough. I know what's a binary number. I can probably tackle this in an hour or so.&quot; I decide no matter what, not to google any solutions. To really try it.</p>
+<p>I start up a .js file with: <strong>let binaryNum = 1001;</strong> I stare at this one line. Ok so now what? So I google how how to make that conversion using plain old math. I find this:</p>
+<img src="../images/Screen Shot 2019-04-05 at 8.01.36 PM.png">
+<p>Ok so brain starts churning. I know I need a loop. The project has some constraints though and it says I can't use an array. So I change the variable type to a string: <strong>let binaryNum = '1001';</strong> Then I say: <strong>let positions = binaryNum.split</strong>; So wait? I just created an array of strings! <strong>['1', '0', '0', '1']</strong>. Hmmm, ok, so now what?</p>
+<p>I read up some more on binary and the math formulas that help you convert them. I go through the conversion with a pencil and paper and really understand it. So I start doing things like:</p>
+<blockquote>
+<p>function binaryConverter(positions) {
+Math.pow(positions[0], 2);
+...
+}</p>
+</blockquote>
+<p>I gets late, my brain gets foggy. The next day I just click the <a href="https://www.youtube.com/watch?v=YMIALQE26KQ">example project link</a></p>
+<img src="../images/Screen Shot 2019-04-05 at 8.29.00 PM.png">
+<p>Here's the thing. Even though I didn't solve this by myself, I managed to understand everything that's happening in the function. What that function is essentially doing is taking the string <strong>'11111111'</strong> and doing this:</p>
+<p>1 x 2 to power 7 = 128</p>
+<p>1 x 2 to power 6 = 64</p>
+<p>1 x 2 to power 5 = 32</p>
+<p>1 x 2 to power 4 = 16</p>
+<p>1 x 2 to power 3 = 8</p>
+<p>1 x 2 to power 2 = 4</p>
+<p>1 x 2 to power 1 = 2</p>
+<p>1 x 2 to power 0 = 1</p>
+<p>The result is 255.</p>
+<p>Of course you can simply do <strong>parseInt('11111111', 2)</strong> where the second argument here is the <em>radix</em> or <em>base</em> and does that whole thing in one fell swoop without having to use a for loop or Math.pow, but now I have a clear understanding on the logic here.</p>
+<p>Let's break this function down:</p>
+<p>The function starts out by declaring the decimal variable starting at 0. It starts a <strong>for loop</strong> which is taking the <strong>binary.length - 1</strong> which in the case of the string '<strong>11111111</strong> means index 7 of that string. In other words, the binary.length for this string would be 8, but 8 - 1 = 7. So we are grabbing the 7th index position in this string which is the right-most 1. Now this - 1 thing on arrays and strings is clear to me! Instead of starting the the loop from left to right, it's starting the loop from right to left. That's also why i-- is decrementing and the condition is testing if the the index is over or equal to zero and keeps subtracting until it reaches 0. Then we take the decimal value and do a += (7 times in this case) we parse the string as an integer with <strong>parseInt</strong>. The (<strong>binary[i]) x Math.pow(2, binary.length - 1 - i</strong>) is taking
+whatever value is in the index (<strong>binary[i]</strong>) (it's going to be either 1 or 0) which in this case is 1 and multiply that by the result (8 - 1 - 7) = 0) 2^0 = 1. So you end up really with 1x2^0=1. But then on the next iteration of <strong>binary.length - 1 - i</strong> the index on the loop is 6 because it gets subtracted so on that iteration it's (8 - 1 - 6 = 1) so this time it is 1x2^1=2. The arguments in the Math.pow function is saying: take 2, the first argument, and raise it the power of the second argument, in this case whatever the result of that calculation, binary.length - 1 - i</p>
+<p>So it keeps doing that until it reaches zero and remember all these final results are being added at the same time with the decimal +=. So the first time the decimal is 0. So x = 0 + 1, then x = 1 + 2, then x = 3 + 4 and so on until everything adds up to 255 when i variable gets to 0.</p>
+<p>Whoa! Hoping that this is helpful to someone.</p>
+
+
+        
+
+        <p class="my-3">
+            <time datetime="2019-04-09">
+                <small class="text-gray-400">Apr 09 2019 by <a class="author-link" href="/authors/jay-cruz/">Jay Cruz</a></small>
+            </time>
+        </p>
+
+        
+            <p>
+                
+                        <small class="mr-3"><a class="tag" href="/tags/web development/" rel="tag">web development</a></small>
+                        <small class="mr-3"><a class="tag" href="/tags/coding/" rel="tag">coding</a></small>
+            </p>
+        
+    </div>
+    <ul class="mb-3"><li class="mb-3">Previous Post: <a href="/posts/links-from-the-tabs/">Links from the Tabs</a></li><li>Next Post: <a href="/posts/goodbye-web-design-hello-frontend-design/">Goodbye Web Design, Hello Frontend Design</a></li>
+    </ul>
+    <hr />
+</div>
+
+<nav>
+    <a href="/">← Blog index</a>
+</nav>
+
+
+
+        </div>
+
+         <footer class="my-16">
+    <small class="text-gray-400">
+        This site was built with love, <a href="https://www.11ty.dev/">Eleventy</a>, and <a href="https://tailwindcss.com/">Tailwind</a>.
+    </small>
+</footer>
+    </body>
+</html>
