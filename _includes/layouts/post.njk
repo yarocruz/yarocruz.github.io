@@ -1,5 +1,6 @@
 ---
 layout: layouts/base.njk
+section: post
 ---
 
 <div class="my-20">
@@ -12,7 +13,7 @@ layout: layouts/base.njk
 
         <p class="my-3">
             <time datetime="{{ currentPost.date | machineDate }}">
-                <small class="text-gray-400">{{ currentPost.date | readableDate }} by <a class="author-link" href="/authors/{{ 'currentPost.author' | slug }}/">{{ currentPost.author }}</a></small>
+                <small class="text-gray-400">{{ currentPost.date | readableDate }} by <a class="author-link" href="/authors/{{ currentPost.author | slugify }}/">{{ currentPost.author }}</a></small>
             </time>
         </p>
 

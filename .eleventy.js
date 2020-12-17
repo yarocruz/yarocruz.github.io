@@ -1,4 +1,5 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const slugify = require("slugify");
 
 const { DateTime } = require("luxon");
 
@@ -20,6 +21,15 @@ module.exports = function (config) {
     // Date formatting (machine readable)
     config.addFilter("machineDate", dateObj => {
         return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
+    });
+
+    // Universal slug filter strips unsafe chars from URLs
+    config.addFilter("slugify", function(str) {
+        return slugify(str, {
+            lower: true,
+            replacement: "-",
+            remove: /[*+~.·,()'"`´%!?¿:@]/g
+        });
     });
 
     config.addPassthroughCopy("images") // makes sure that these files get outputed
