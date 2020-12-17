@@ -2,8 +2,4 @@
 
 This is my blog, there are many like it, but this one is mine.
 
-This branch is currently in incubation. The plan is to redesign the site and to move it to Eleventy.
-
-[This is the boilerplate look of the theme](https://jekyll.github.io/minima/)
-
-You can find the source code for the Minima Theme [here](https://github.com/jekyll/minima)
+I originally made this site in 2017 with [Jekyll](https://jekyllrb.com/) but I recently transferred it to [Eleventy](https://www.11ty.dev/) and gave it a fresh new look.  
