@@ -8,6 +8,14 @@ layout: layouts/base.njk
         {% if featuredImage %}<img class="w-auto mt-5" src="{{ featuredImage | url }}" alt="{{ featuredImage }}" />{% endif %}
         {{ content | safe }}
 
+        {% set currentPost = collections.posts | getCollectionItem(page) %}
+
+        <p class="my-3">
+            <time datetime="{{ currentPost.date | machineDate }}">
+                <small class="text-gray-400">{{ currentPost.date | readableDate }} by <a class="author-link" href="/authors/{{ currentPost.data.author | slug }}/">{{ currentPost.data.author }}</a></small>
+            </time>
+        </p>
+
         {% if tags %}
             <p>
                 {% for tag in tags %}
@@ -19,7 +27,12 @@ layout: layouts/base.njk
             </p>
         {% endif %}
     </div>
-
+    <ul class="mb-3">
+        {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+        {%- if nextPost %}<li class="mb-3">Previous Post: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+        {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+        {%- if previousPost %}<li>Next Post: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+    </ul>
     <hr />
 </div>
 
@@ -27,5 +40,4 @@ layout: layouts/base.njk
     <a href="{{ '/' | url }}">← Blog index</a>
 </nav>
 
-{% if pagination.href.previous %}<a class="mr-8" href="{{ pagination.href.previous }}">← Previous</a>{% endif %}
-{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next &#8594;</a>{% endif %}
+

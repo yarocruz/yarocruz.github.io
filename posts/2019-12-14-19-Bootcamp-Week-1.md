@@ -1,7 +1,7 @@
 ---
 title: 'Bootcamp Week 1'
 tags: 
-    -web development
+    - web development
     - bootcamp
     - posts
 ---

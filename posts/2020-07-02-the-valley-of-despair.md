@@ -4,7 +4,7 @@ tags:
     - learning
     - math
     - bootcamps
-    - web-development
+    - web development
     - posts 
 ---
 

@@ -5,7 +5,7 @@ tags:
     - coding
     - javascript
     - react
-    - front-end
+    - front end
     - posts
 ---
 
