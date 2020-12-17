@@ -3,6 +3,7 @@ title: "Smart Goals and 100 Days of Coding"
 tags: 
     - web development 
     - coding
+    - posts
 ---
 
 I want to get better at web development. Specifically _front-end_ web development. I'm still just an old school _web designer_. For a long time a web designer's role was somewhere between print designer and full on _web developer_. But this doesn't look like it's a thing anymore. You either just stay at being a traditional print designer, transition to the UX/UI racket, or forget that Design thing and just go the full stack route. Hell, you might as well start learning C++.

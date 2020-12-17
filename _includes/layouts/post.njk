@@ -13,7 +13,7 @@ section: post
 
         <p class="my-3">
             <time datetime="{{ currentPost.date | machineDate }}">
-                <small class="text-gray-400">{{ currentPost.date | readableDate }} by <a class="author-link" href="/authors/{{ currentPost.author | slugify }}/">{{ currentPost.author }}</a></small>
+                <small class="text-gray-400">{{ currentPost.date | readableDate }} by <a class="author-link" href="/authors/{{ currentPost.data.author | slug }}/">{{ currentPost.data.author }}</a></small>
             </time>
         </p>
 
