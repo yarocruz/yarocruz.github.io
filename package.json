@@ -1,0 +1,36 @@
+{
+  "name": "yarocruz.github.io",
+  "version": "1.0.0",
+  "description": "This is my blog, there are many like it, but this one is mine.",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o assets/css/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarocruz/yarocruz.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yarocruz/yarocruz.github.io/issues"
+  },
+  "homepage": "https://github.com/yarocruz/yarocruz.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "html-minifier": "^4.0.0",
+    "luxon": "^1.25.0",
+    "postcss-clean": "^1.1.0"
+  },
+  "dependencies": {
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "@fullhuman/postcss-purgecss": "^3.1.0",
+    "autoprefixer": "^10.1.0",
+    "clean-css": "^4.2.3",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "slugify": "^1.4.6",
+    "tailwindcss": "^2.0.2"
+  }
+}
