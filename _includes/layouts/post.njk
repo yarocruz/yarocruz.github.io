@@ -5,7 +5,7 @@ layout: layouts/base.njk
 <div class="my-20">
     <h1 class="font-bold text-3xl">{{ title }}</h1>
     <div class="max-w-prose">
-{#        {% if featuredImage %}<img class="w-auto mt-5" src="{{ featuredImage | url }}" alt="{{ featuredImage }}" />{% endif %}#}
+        {% if featuredImage %}<img class="w-auto mt-5" src="{{ featuredImage | url }}" alt="{{ featuredImage }}" />{% endif %}
         {{ content | safe }}
 
         {{ set currentPost = collections.posts | getCollectionItem(page) }}
@@ -15,6 +15,7 @@ layout: layouts/base.njk
                 <small class="text-gray-400">{{ currentPost.date | readableDate }} by <a class="author-link" href="/authors/{{ currentPost.data.author | slug }}/">{{ currentPost.data.author }}</a></small>
             </time>
         </p>
+        {{ end currentPost }}
 
         {% if tags %}
             <p>
