@@ -93,12 +93,18 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 Add the correct font weight in Edge and Safari.
 */
 
+b,
+strong {
+  font-weight: bolder;
+}
+
 /**
 1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 2. Correct the odd 'em' font sizing in all browsers.
 */
 
-code {
+code,
+pre {
   font-family:
 		ui-monospace,
 		SFMono-Regular,
@@ -121,6 +127,17 @@ small {
 Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
 */
 
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
 /*
 Tabular data
 ============
@@ -130,6 +147,11 @@ Tabular data
 1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
 2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
 */
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+}
 
 /*
 Forms
@@ -141,14 +163,34 @@ Forms
 2. Remove the margin in Firefox and Safari.
 */
 
+button,
+input,
+select {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
 /**
 Remove the inheritance of text transform in Edge and Firefox.
 1. Remove the inheritance of text transform in Firefox.
 */
 
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
 /**
 Correct the inability to style clickable types in iOS and Safari.
 */
+
+button,
+[type='button'],
+[type='submit'] {
+  -webkit-appearance: button;
+}
 
 /**
 Remove the inner border and padding in Firefox.
@@ -171,6 +213,10 @@ Remove the padding so developers are not caught out when they zero out 'fieldset
 Add the correct vertical alignment in Chrome and Firefox.
 */
 
+progress {
+  vertical-align: baseline;
+}
+
 /**
 Correct the cursor style of increment and decrement buttons in Safari.
 */
@@ -179,6 +225,11 @@ Correct the cursor style of increment and decrement buttons in Safari.
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
 */
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
 
 /**
 Remove the inner padding in Chrome and Safari on macOS.
@@ -208,18 +259,32 @@ Add the correct display in Chrome and Safari.
  * Removes the default spacing and border for appropriate elements.
  */
 
-
+blockquote,
 h1,
 h2,
+h3,
+h4,
 hr,
-p {
+figure,
+p,
+pre {
   margin: 0;
+}
+
+button {
+  background-color: transparent;
+  background-image: none;
 }
 
 /**
  * Work around a Firefox/IE bug where the transparent `button` background
  * results in a loss of the default `button` focus styles.
  */
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
 
 
 ul {
@@ -311,8 +376,31 @@ img {
   border-style: solid;
 }
 
+input::-moz-placeholder {
+  color: #9ca3af;
+}
+
+input:-ms-input-placeholder {
+  color: #9ca3af;
+}
+
+input::placeholder {
+  color: #9ca3af;
+}
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+}
+
 h1,
-h2 {
+h2,
+h3,
+h4 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -335,6 +423,14 @@ a {
  * normalize.css.
  */
 
+button,
+input,
+select {
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+}
+
 /**
  * Use the configured 'mono' font family for elements that
  * are expected to be rendered with a monospace font, falling
@@ -342,7 +438,7 @@ a {
  * 'mono' font family.
  */
 
-
+pre,
 code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -355,7 +451,9 @@ code {
  * https://github.com/mozdevs/cssremedy/issues/14
  */
 
-img {
+img,
+video,
+object {
   display: block;
   vertical-align: middle;
 }
@@ -367,13 +465,60 @@ img {
  * https://github.com/mozdevs/cssremedy/issues/14
  */
 
-img {
+img,
+video {
   max-width: 100%;
   height: auto;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
+}
+
+.table {
+  display: table;
 }
 
 .items-end {
@@ -406,6 +551,10 @@ img {
   line-height: 2.5rem;
 }
 
+.leading-10 {
+  line-height: 2.5rem;
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -429,6 +578,10 @@ img {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .mt-3 {
@@ -475,6 +628,18 @@ img {
   padding-right: 1.25rem;
 }
 
+.static {
+  position: static;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
 * {
   --tw-shadow: 0 0 #0000;
 }
@@ -502,8 +667,18 @@ img {
   white-space: nowrap;
 }
 
+.break-words {
+  overflow-wrap: break-word;
+}
+
 .w-auto {
   width: auto;
+}
+
+.transition {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 @-webkit-keyframes spin {
@@ -554,7 +729,7 @@ body {
   color: #14396A;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
   color: #14396A;
 }
 
@@ -658,5 +833,9 @@ nav, .nav a {
 
   .md\:pl-5 {
     padding-left: 1.25rem;
+  }
+
+  .md\:w-8\/12 {
+    width: 66.666667%;
   }
 }

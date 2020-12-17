@@ -28,12 +28,20 @@ pagination:
                 </time>
             </p>
             {% if post.data.tags %}
+                <p class="break-words leading-10">
                 {% for tag in post.data.tags %}
-                    {%- if tag != "posts" -%}
-                        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-                        <small class="mr-3"><a class="tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></small>
-                    {%- endif %}
+
+                        {%- if tag != "posts" -%}
+                            {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+
+
+                            <small class="mr-2"><a class="tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></small>
+
+
+                        {%- endif %}
+
                 {% endfor %}
+                </p>
             {% endif %}
         </li>
        <hr >
