@@ -1,3 +1,6 @@
 {
-  "tags": "posts"
+  "layout": "layouts/post.njk",
+  "permalink": "posts/{{ title | slug }}/index.html",
+  "author": "Jay Cruz",
+  "tags": ["posts"]
 }

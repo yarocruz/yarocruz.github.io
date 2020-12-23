@@ -1,6 +1,7 @@
 ---
 title: "Persistence and Grit"
 summary: Tommy Wiseau and Mr. Brainwash start a project together.
+featuredImage: '/images/just-do-it.png'
 tags:
     - posts
     - sliceoflife
