@@ -560,6 +560,11 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .my-7 {
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
@@ -661,6 +666,10 @@ video {
 
 .break-words {
   overflow-wrap: break-word;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .transition {
