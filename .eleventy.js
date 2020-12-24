@@ -1,5 +1,6 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const slugify = require("slugify");
+const htmlmin = require("html-minifier");
 
 const { DateTime } = require("luxon");
 
@@ -30,6 +31,19 @@ module.exports = function (config) {
             replacement: "-",
             remove: /[*+~.·,()'"`´%!?¿:@]/g
         });
+    });
+
+    // Minify HTML output
+    config.addTransform("htmlmin", function(content, outputPath) {
+        if (outputPath.indexOf(".html") > -1) {
+            let minified = htmlmin.minify(content, {
+                useShortDoctype: true,
+                removeComments: true,
+                collapseWhitespace: true
+            });
+            return minified;
+        }
+        return content;
     });
 
     config.addPassthroughCopy("images") // makes sure that these files get outputed
