@@ -1,25 +1,25 @@
 <html>
-    <head>
-        <title>Jay Cruz Site</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/assets/css/tailwind.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;403;500;700;900&display=swap" rel="stylesheet">
-    </head>
-    <body class="my-16 mx-auto p-5 md:w-8/12">
-        <header class="md:flex justify-between justify-items-center items-end mb-3">
-            <h1 class="font-black text-4xl"><a class="deep-blue" href="{{ "/" | url }}">Jay Cruz</a></h1>
-            {% include "partials/nav.njk" %}
-        </header>
-        <div class="shadow-md mb-20">
-            <div class="border1"></div>
-            <div class="border2"></div>
-            <div class="border3"></div>
-        </div>
-        <div class="max-w-prose">
-            {{ content | safe }}
-        </div>
+<head>
+    <title>Jay Cruz Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/tailwind.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;403;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="my-16 mx-auto p-5 md:w-8/12">
+<header class="md:flex justify-between justify-items-center items-end mb-3">
+    <h1 class="font-black text-4xl"><a class="deep-blue" href="{{ "/" | url }}">Jay Cruz</a></h1>
+    {% include "partials/nav.njk" %}
+</header>
+<div class="shadow-md mb-20">
+    <div class="border1"></div>
+    <div class="border2"></div>
+    <div class="border3"></div>
+</div>
+<div class="max-w-prose">
+    {{ content | safe }}
+</div>
 
-         {% include "partials/footer.njk" %}
-    </body>
+{% include "partials/footer.njk" %}
+</body>
 </html>
