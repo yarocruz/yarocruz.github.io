@@ -8,7 +8,7 @@ tags:
 - texteditors
 - learning
 ---
-Like many coders, the first time I encountered [Vim](https://www.vim.org/) was when I typed **git commit** into a terminal, forgetting to type the -m flag. I don't think I even knew what Vim was when it happened. All I knew is that I had no idea where I was or how to get out.
+Like many coders, the first time I encountered [Vim](https://www.vim.org/) was when I typed **git commit** into a terminal, and forgot to type the -m flag. I don't think I even knew what Vim was when it happened. All I knew is that I had no idea where I was or how to get out.
 
 Once I started digging more into Text Editors I eventually became aware of it, but only enough to know what it was. I read a bit about it, watch some videos, and went through the first free levels of [Vim Adventures](https://vim-adventures.com/). I learned at least the arrow keys (**hjkl**), how to move by words with **w** and **b** but never stuck with it long enough to really like get to [Ben Awad](https://www.youtube.com/watch?v=IiwGbcd8S7I&t=3165s) level skills.
 
