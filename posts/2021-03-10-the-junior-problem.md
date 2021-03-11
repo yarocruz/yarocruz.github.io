@@ -8,9 +8,9 @@ tags:
 - career
 ---
 
-Andrei Neagoie has a really popular article called [**Don't be a Junior Developer**](https://zerotomastery.io/blog/dont-be-a-junior-developer/?utm_source=medium&utm_medium=dont-be-junior-the-roadmap). In the article he argues that labeling yourself as "junior" when you're starting out is a big mistake, specially if you're looking for that first job. Hey writes:
+Andrei Neagoie has a really popular article called [**Don't be a Junior Developer**](https://zerotomastery.io/blog/dont-be-a-junior-developer/?utm_source=medium&utm_medium=dont-be-junior-the-roadmap). In the article he argues that labeling yourself as "junior" when you're starting out is a big mistake, specially if you're looking for that first job. He writes:
 
-> When you do that, this is what recruiters and companies see: “Hi, I’m desperately looking to get hired as a developer. I’m still new at this, but can you please please please place a bet on me and hope that I turn out to be an asset and not a liability for your company. Oh, and I’m also going to need a lot of help from your staff for the first 6 months!”
+> "When you do that, this is what recruiters and companies see: “Hi, I’m desperately looking to get hired as a developer. I’m still new at this, but can you please please please place a bet on me and hope that I turn out to be an asset and not a liability for your company. Oh, and I’m also going to need a lot of help from your staff for the first 6 months!”
 
 Even though the article's main purpose is to sell you his course [The Complete Junior to Senior Developer](https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap), I agree with with the quoted sentiment 110%, but I'm gonna take this a little further and say that it's not just enough to avoid labeling *yourself* a junior. You should also **avoid letting others put you in that box**. I'm not talking about the unfortunate situation of getting that as a literal job title in a company. I'm talking more about other peers in the industry putting you in that box.
 
