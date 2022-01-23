@@ -10,6 +10,10 @@ eleventyNavigation:
 
 I mostly watch docs more than movies, so a lot here are probably going to be docs.
 
+[Encanto](https://letterboxd.com/film/encanto/)
+
+[Nobody](https://letterboxd.com/film/nobody-2021/)
+
 [Soul](https://letterboxd.com/film/soul-2020/)
 
 [Q: Into the Storm](https://letterboxd.com/film/q-into-the-storm/)
