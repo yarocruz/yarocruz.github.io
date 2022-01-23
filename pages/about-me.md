@@ -8,9 +8,11 @@ eleventyNavigation:
   order: 0
 ---
 
-Hi, I'm Jay Cruz and I'm a Software Developer based in Orlando, FL. I mostly dabble in client and server-side JavaScript to build websites and web apps. I use [React](https://reactjs.org/) and sometimes [Vue](https://vuejs.org/) for building client side interfaces, and I like the [Postgres](https://www.postgresql.org/), Node / Express stack.
+Hello I'm Jay, and I'm a Software Engineer based in Orlando, FL. Even though I've been <i>coding</i> since at least 2013, I'm still in the early stages of a career in Software Engineering, mostly writing client and server-side JavaScript. I've used [React](https://reactjs.org/) and a bit of [Vue](https://vuejs.org/) for building client side interfaces, and I like the [Postgres](https://www.postgresql.org/), Node / Express stack.
 
-This site is just my humble off-the-radar web log where I've been documenting my journey into this new career, what I've been learning, and other miscellanea.
+I've also been dabbling and learning Python and Rust.
+
+This site is just my humble off-the-radar web log where I've been [documenting my journey](https://yarocruz.netlify.app/tags/bootcamp/) into this new career, what I've been learning, and other miscellanea.
 
 When I'm not slinging code I'm hanging out with my beautiful girlfriend and my dog Oliver. 
 
