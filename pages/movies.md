@@ -6,22 +6,9 @@ eleventyNavigation:
   key: Movies
   order: 5
 ---
-# Great Movies
 
-I mostly watch docs more than movies, so a lot here are probably going to be docs.
+I've watched many films and movies. There's a lot that I could list here as my all time favorites, but that's a list is constantly changing. So I'm gonna give this some thought. In the 2000's if you asked which was one of my favorite movies, I would've responded immediately with [Fight Club](https://letterboxd.com/film/fight-club/). But today, even though I still think it's a brilliant film, I'm not sure if I would put it as my top favorite. 
 
-[Encanto](https://letterboxd.com/film/encanto/)
+In the meantime I'll be tracking what I've watched so far this year. 
 
-[Nobody](https://letterboxd.com/film/nobody-2021/)
-
-[Soul](https://letterboxd.com/film/soul-2020/)
-
-[Q: Into the Storm](https://letterboxd.com/film/q-into-the-storm/)
-
-[NightCrawler](https://letterboxd.com/film/nightcrawler/)
-
-[High Fidelity](https://letterboxd.com/film/high-fidelity/)
-
-[Fight Club](https://letterboxd.com/film/fight-club/)
-
-[The Devil Wears Prada](https://letterboxd.com/film/the-devil-wears-prada/)
+[Watched in 2022](https://letterboxd.com/jaycruz/list/watched-in-2022/)

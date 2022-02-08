@@ -5,14 +5,14 @@ const htmlmin = require("html-minifier");
 const { DateTime } = require("luxon");
 
 module.exports = function (config) {
-    // adding markdown-it
-    let markdownIt = require("markdown-it");
-    let options = {
-        html: true,
-        breaks: true,
-        linkify: true
-    };
-    config.setLibrary("md", markdownIt(options));
+    // // adding markdown-it
+    // let markdownIt = require("markdown-it");
+    // let options = {
+    //     html: true,
+    //     breaks: true,
+    //     linkify: true
+    // };
+    // config.setLibrary("md", markdownIt(options));
 
     // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
     config.addPlugin(eleventyNavigationPlugin);
