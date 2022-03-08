@@ -1,6 +1,6 @@
 ---
 title: Blogging About Blogging
-summary: Things I've been up to...
+summary:  I was certainly one of the millions of people that caught the blogging bug when it reached critical mass around the mid 2000's.
 tags:
 - posts
 - blogging
