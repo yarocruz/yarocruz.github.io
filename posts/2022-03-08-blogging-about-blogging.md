@@ -15,4 +15,4 @@ It's interesting to see that while people aren't using blog platforms like WordP
 
 That said, there's something that's definitely different about the old-school personal blog when it's well written. A blog post doesn't have to be a 5,000 word essay with the quality of something published on The Atlantic, but there's something different about the 'throw away' content that platforms like Twitter, Instagram, or Tik Tok encourage. Even the best Twitter thread still feels like 'throw away' content to me. I just find it harder, as a maker and as a consumer in these platforms, to feel as connected with myself or to other people as well as I do when writing my own blog or reading someone's blog.
 
-Reading the book reminded me why I have kept this blog and why I want to keep it going. I'll probably always struggle with posting more consistently, but this my own space on the web where I get to figure out what I want to say. 
+Reading the book reminded me why I have kept this blog and why I want to keep it going. I'll probably always struggle with posting more consistently, but this is my own space on the web where I get to figure out what I want to say. 
