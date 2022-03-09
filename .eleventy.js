@@ -1,18 +1,13 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const slugify = require("slugify");
 const htmlmin = require("html-minifier");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 const { DateTime } = require("luxon");
 
 module.exports = function (config) {
-    // // adding markdown-it
-    // let markdownIt = require("markdown-it");
-    // let options = {
-    //     html: true,
-    //     breaks: true,
-    //     linkify: true
-    // };
-    // config.setLibrary("md", markdownIt(options));
+    // Rss Plugin
+    config.addPlugin(pluginRss);
 
     // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
     config.addPlugin(eleventyNavigationPlugin);
