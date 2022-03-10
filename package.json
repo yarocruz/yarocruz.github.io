@@ -30,6 +30,7 @@
     "@fullhuman/postcss-purgecss": "^3.1.0",
     "autoprefixer": "^10.1.0",
     "clean-css": "^4.2.3",
+    "eleventy-xml-plugin": "^0.1.0",
     "markdown-it": "^12.3.2",
     "postcss": "^8.2.1",
     "postcss-cli": "^8.3.1",
