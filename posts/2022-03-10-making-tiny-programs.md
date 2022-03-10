@@ -8,7 +8,7 @@ tags:
 
 I don't think I've ever been able to fully commit to a coding project. Like a BIG project. A so called 'real world' solution. A non 'toy' project. (I really don't like the term 'toy project').
 
-Deciding what kind of app to build is a common struggle, specially when you're trying fill a portfolio with worthy projects that could potentially get you hired. This mindset ends up giving me a lot of anxiety, which is the reason why I end loosing steam when starting a project. It just takes the fun out of it.
+Deciding what kind of app to build is a common struggle, specially when you're trying to fill a portfolio with worthy projects that could potentially get you hired. This mindset ends up giving me a lot of anxiety, which is the reason why I end loosing steam when starting a project. It just takes the fun out of it.
 
 This is why it's so refreshing to read people like [Julia Evans](https://jvns.ca/). In [one of her recent posts](https://jvns.ca/blog/2022/03/08/tiny-programs/) she goes through some cool little programs she's built, but what really struck me about the post is he reasoning on why do them in the first place.
 
