@@ -7,7 +7,7 @@ tags:
 - career
 ---
 
-_Update: The point I tried making with this post didn't come out they way I intended. Part of it is just bad writing and part if came out from some aimless anger and frustration I was feeling at the time. HTML and CSS are definitely programming languages. I apologize for sounding like the [ACKCHYUALLY guy](https://i.kym-cdn.com/photos/images/newsfeed/001/191/035/135.png)._ 
+_Update: The point I tried making with this post didn't come out they way I intended. Part of it is just bad writing and part of it came out from some aimless anger and frustration I was feeling at the time. HTML and CSS are definitely programming languages. I apologize for sounding like the [ACKCHYUALLY guy](https://i.kym-cdn.com/photos/images/newsfeed/001/191/035/135.png)._ 
 
 The problem with discussing if HTML and CSS are programming languages or not is that most of the time this debate really doesn't matter. It's just semantics. Bike shedding. Usually used as a way to put others down, or put others up, depending on which side it's coming from. HTML and CSS are languages. They are codes. They are instructions you're giving to a computer(the browser interpreter really, but let's not digress). In that loosely and broader sense, then yes, making a website with just HTML and CSS is programming.
 
