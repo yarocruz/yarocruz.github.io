@@ -1,6 +1,6 @@
 ---
 title: Is HTML a Programming Language?
-summary: "I should be answering that question quite emphatically with this word: Yes"
+summary: Spoiler alert: The answer is yes.
 tags:
 - posts
 - html
