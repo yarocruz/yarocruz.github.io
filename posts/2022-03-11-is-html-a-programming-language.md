@@ -1,6 +1,6 @@
 ---
 title: Is HTML a Programming Language?
-summary: Spoiler alert: The answer is yes.
+summary: Spoiler alert. The answer is yes.
 tags:
 - posts
 - html
