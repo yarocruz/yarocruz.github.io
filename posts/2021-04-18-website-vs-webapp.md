@@ -8,6 +8,7 @@ tags:
 - webapp
 - webpage
 ---
+[link to thread](https://seths.blog/2021/04/youre-not-that-good/)
 
 When people get into the debate of website vs web app, in the context of how overkill it is to use a big JS framework for "just making static sites", I think they are confusing a web Page with a web Site. The confusion probably stems from the misunderstanding that a website that is simply "informational" doesn't need to be **dynamic**, or "appy", and that they should always be **static**.
 
