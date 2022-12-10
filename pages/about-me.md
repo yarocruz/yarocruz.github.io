@@ -20,9 +20,7 @@ When I'm not slinging code I'm hanging out with my beautiful girlfriend and my d
 
 Portfolio: [http://yarocruz.surge.sh/](http://yarocruz.surge.sh/)
 
-Email : [yarocruz@gmail.com](#)
-
-Mastodon: [@jaycruz@fosstodon.org](#)
+Email : [yarocruz@gmail.com](#) 
 
 Twitter : [JayCruz](https://twitter.com/JayCruz) 
 
