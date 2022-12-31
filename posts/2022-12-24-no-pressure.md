@@ -10,7 +10,7 @@ tags:
 
 — https://www.sarasoueidan.com/desk/just-write/
 
-One of main reasons many of us abandoned blogging for social media was because blogging became *serious* long-form writing. It stopped being a form of communication and expression and it became just another medium for mostly non-fiction writing. Journalists, Essayist, and professional Writers, while legitimizing Blogging as valuable, ended up becoming rock star bloggers, eventually pushing us amateurs away. We couldn't compete with the pros. The pressure to only post *valuable content* was to high and social media gave us back that no-pressure of just expressing ourselves.
+One of the main reasons many of us abandoned blogging for social media was because blogging became *serious* long-form writing. It stopped being a form of communication and expression and it became just another medium for mostly non-fiction writing. Journalists, Essayist, and professional Writers, while legitimizing Blogging as valuable, ended up becoming rock star bloggers, eventually pushing us amateurs away. We couldn't compete with the pros. The pressure to only post *valuable content* was too high and social media gave us back that no-pressure of just expressing ourselves.
 
 There's a vibe going on. Due to recent events at Twitter people are rethinking social media and [looking back at blogging](https://matthiasott.com/articles/into-the-personal-website-verse). People are talking about RSS. It's interesting and the enthusiasm is contagious. 
 
