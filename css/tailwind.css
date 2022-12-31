@@ -21,6 +21,19 @@ h2 {
     font-weight: 700;
 }
 
+.content ul {
+    font-size: 1.1rem;
+    margin: 20px auto;
+    list-style-type: none;
+}
+.content ul > li {
+    text-indent: -5px;
+}
+.content ul > li:before {
+    content: "- ";
+    text-indent: -5px;
+}
+
 p {
     color: #383838;
     margin: 20px auto;
